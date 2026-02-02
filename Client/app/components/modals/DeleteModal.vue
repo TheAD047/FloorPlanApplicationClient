@@ -33,8 +33,8 @@
 import { showModalToggle } from '~/assets/js/common';
     const { id, objectType } = defineProps(['id', 'objectType']);
     const config = useRuntimeConfig();
-    console.log(id);
-    console.log(objectType);
+    //console.log(id);
+    //console.log(objectType);
       
     function deleteConfirm()
     {
